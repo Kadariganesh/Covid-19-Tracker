@@ -24,9 +24,9 @@ const App = () => {
           </thead>
 
             <tbody>
-            {data.map((item,index) => {
+            {data.map((item) => {
                 return (
-                  <tr key={index}>
+                  <tr>
                   <td>{item.state}</td>
                   <td>{item.confirmed}</td>
                   <td>{item.recovered}</td>
